@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.title{
+  margin-top: 0;
+  padding-top: 15px;
+  font-size: 50px;
+}
+
+.form-label {
+  font-size: 25px;
+  font-weight: 600;
+
+}
+.submitform{
+  margin-bottom: 20px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-button {
+  margin-left: 15px;
+  height: 60px;
+  width: 80px;
+  border-radius: 10px;
+  border: 1px solid;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+.home input{
+  width: 350px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  border-color: none;
+}
+.home input:focus{
+  outline:none;
+}
+.card{
+  width: 500px;
+  height: 230px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+}
+#updateInput {
+  width: 200px;
+  height: 40px;
+}
+.card p{
+  font-size: 30px;
+  font-weight:600;
+  color: rgb(20, 16, 230);
+}
+.card h1{
+  color: red;
+}
+.sub-button{
+  height: 45px;
+  width: 90px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
